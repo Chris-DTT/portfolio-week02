@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-.header {
+header {
     display: flex;
     background-color: lightgray;
     padding: 2.5%;
@@ -17,4 +17,13 @@
 
 section {
     display: flex;
+}
+
+section h1 {
+   flex: 1;
+   border-right: 1rem solid black;
+}
+
+section p {
+    flex: 5;
 }
